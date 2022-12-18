@@ -77,7 +77,7 @@ onMounted(() => {
 <template>
   <div class="initial-pane" v-show="screenState === ScreenState.InPreview">
     <label for="fileInput">
-      <span class="btn btn-primary" ref="startButtonRef">Start Camera</span>
+      <span class="btn btn-primary" ref="startButtonRef">Display Identity X-Ray</span>
       <input
         id="fileInput"
         ref="fileInputRef"
